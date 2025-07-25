@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header {
+    width: 1240px;
+    margin: auto;
+    display: flex;
+}
+
+.main-logo {
+    width: 25%;
+    padding: 15px;
+}
+.main-menu {
+    width: 75%;
+    align-items: center;
+    display: flex;
+    justify-content: end;
+}
+
+.main-menu nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+}
+
+.main-menu nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 24px;
+    padding: 15px;
+    display: block;
+    font-family: math;
+}
+.footer-full-with {
+    background: black;
+}
+
+.main-footer {
+    width: 1240px;
+    margin: auto;
+}
+
+.main-footer nav ul {
+    list-style: none;
+}
+
+.main-footer nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: block;
+}
+
+.footer {
+    padding: 22px 0;
+    background: #999;
+}
+.main-footer p {
+    color: white;
+    padding-top: 25px;
+}
+
+.hero-full-width {
+  background: green;
+   margin-bottom: 18px;
+}
+.hero-section {
+  width: 1240px;
+  margin: auto;
+  display: flex;
+}
+.hero-section-text {
+  padding: 56px 0;
+  display: block;
+}
+
+.hero-section-text h1 {
+  font-size: 23px;
+}
+.hero-section-text h2 {
+  font-size: 36px;
+  text-transform: uppercase;
+  padding: 10px 0;
+}
+.hero-section-text h3 {
+  font-size: 30px;
+  line-height: 36px;
+}
+.hero-section-text p {
+  font-size: 18px;
+  padding-top: 23px;
+}
+.hero-section-image {
+  display: flex;
+}
+
+
+.Past-Lecture-main {
+  width: 1240px;
+  margin: auto;
+  display: flex;
+}
+.Past-Lecture-main-text {
+  padding: 50px;
+}
+.Past-Lecture-main-text h1 {
+  font-size: 32px;
+  padding: 9px 0;
+}
+.Past-Lecture-main-text h2 {
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.Past-Lecture-main-text h3 {
+  font-size: 14px;
+}
+.Past-Lecture-main-text h4 {
+  font-size: 18px;
+  padding-top: 12px;
+}
+.Past-Lecture-main-text h5 {
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.Past-Lecture {
+  width: 1240px;
+  margin: auto;
+}
+.Past-Lecture p {
+  text-transform: uppercase;
+  font-size: 20px;
+  border-bottom: 2px solid black;
+  padding: 10px;
+}
+.Past-Lecture-full-width {
+  margin-bottom: 59px;
+}
+
+.Past-Speakers-matter {
+  width: 1240px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.Past-Speakers-item h1 {
+  text-transform: uppercase;
+}
+
+
+.Past-Speakers-item img {
+  max-width: 100%;
+  padding-top: 24px;
+}
+
+.Past-Speakers-item {
+ 
+  border-bottom: 5px solid black;
+}
+.Past-Speakers {
+  width: 1240px;
+  margin: auto;
+
+}
+.Past-Speakers p {
+  text-transform: uppercase;
+  font-size: 25px;
+  border-bottom: 1.5px solid black;
+  padding: 5px;
+}
+
+.Past-Speakers-item h2 {
+  padding: 50px 0;
+}
+.Past-Speakers-full-width {
+  margin-bottom: 45px;
+}
+
+.Lectures-full-width {
+  background: #555555;
+}
+.Lectures {
+  width: 1240px;
+  margin: auto;
+}
+.Lectures p {
+  text-transform: uppercase;
+  padding: 69px 0;
+  color: white;
+  font-size: 40px;
+}
