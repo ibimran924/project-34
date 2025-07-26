@@ -3,6 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+body {
+  font-family: math;
+  background: antiquewhite;
+}
 .header {
     width: 1240px;
     margin: auto;
@@ -32,7 +36,7 @@
     font-size: 24px;
     padding: 15px;
     display: block;
-    font-family: math;
+    
 }
 .footer-full-with {
     background: black;
@@ -192,4 +196,100 @@
   padding: 69px 0;
   color: white;
   font-size: 40px;
+}
+.lectures-box {
+  width: 1240px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  background: white;
+}
+
+
+.lectures-box-item h1 {
+  text-transform: uppercase;
+  padding: 10px 0;
+  font-size: 21px;
+}
+.lectures-box-item h2 {
+  font-size: 20px;
+}
+h2 {
+}
+.lectures-box-item h3 {
+  font-size: 15px;
+  text-transform: uppercase;
+  padding-top: 17px;
+}
+.lectures-box-item h4 {
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.lectures-box-item {
+  width: 30%;
+}
+.lectures-box-item {
+  border-bottom: 5px solid rebeccapurple;
+  padding: 43px 0;
+}
+.lectures-box-item img {
+  max-width: 100%;
+}
+
+.lectures-box-item h1,.lectures-box-item h2,.lectures-box-item h3,.lectures-box-item h4 {
+  padding: 11px 0;
+}
+
+.Speakers-full-width {
+  background: #555555;
+  margin-bottom: 38px;
+}
+.Speakers {
+  width: 1240px;
+  margin: auto;
+}
+.Speakers p {
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 60px 0;
+  color: white;
+}
+
+.Speakers-box {
+  width: 1240px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 71px;
+}
+.Speakers-box-item {
+  width: 30%;
+}
+.Speakers-box-item img {
+  max-width: 100%;
+  padding-top: 30px;
+}
+
+.Speakers-box-item h1 {
+  font-size: 23px;
+  text-transform: uppercase;
+  padding-top: 19px;
+}
+.Speakers-box-item h2 {
+  font-size: 20px;
+  padding: 20px 0;
+}
+.Speakers-box-item p {
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.Speakers-box-item {
+  border-bottom: 5px solid red;
+  padding: 20px 0;
+}
+.Speakers-box-item h1,.Speakers-box-item h2,.Speakers-box-item p {
+  padding: 20px 0;
 }
