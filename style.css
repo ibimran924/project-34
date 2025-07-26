@@ -263,6 +263,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   margin-bottom: 71px;
+  flex-wrap: wrap;
 }
 .Speakers-box-item {
   width: 30%;
